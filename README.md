@@ -1,4 +1,4 @@
-# Langchain_openwebui
+# Langchain_openwebuiapi
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@
 
 ## はじめに
 
-Langchainを触ってみたかったが、Openaiのapikeyにお金を出すのが嫌でopenwebuiでやれないかと思い作成。ゼミのレクチャー用。このリポジトリには、LangChain を使って Formosa Foundation API と統合したカスタム言語モデルがあります。このモデルは、Formosa Foundationの言語モデルの機能を活用することで、与えられたプロンプトに基づいてテキストを生成することができます。これを使用することでlangchainでいろいろやりやすくなる。
+Langchainを触ってみたかったが、Openaiのapikeyにお金を出すのが嫌でopenwebuiのapiを使ってやれないかと思い作成。ゼミのレクチャー用。このリポジトリには、LangChain を使って Formosa Foundation API と統合したカスタム言語モデルがあります。このモデルは、Formosa Foundationの言語モデルの機能を活用することで、与えられたプロンプトに基づいてテキストを生成することができます。これを使用することでlangchainでいろいろやりやすくなる。apiを使用せずローカルLLMの場合はfrom langchain_community.llms import Ollamaでサポートされているのでそちらを使用してください。
 
 
 ## インストール
